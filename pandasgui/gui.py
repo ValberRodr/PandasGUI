@@ -121,7 +121,7 @@ class PandasGui(QtWidgets.QMainWindow):
                   int((screen.height() - size.height()) / 2), )
 
         # Set window title and icon
-        self.setWindowTitle("PandasGUI")
+        self.setWindowTitle("Pandinha - Data Science em Low Code")
         pdgui_icon_path = pkg_resources.resource_filename(__name__, "resources/images/icon.png")
         self.app.setWindowIcon(QtGui.QIcon(pdgui_icon_path))
 
